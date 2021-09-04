@@ -1,0 +1,83 @@
+.search-content {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+} 
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: black;
+}
+
+input.search-bar {
+    font-size: 1.1rem;
+     outline: 0; 
+    border-radius: 20px;
+    padding: 0.3em 0.7em;
+}
+
+ button {
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 0.3em;
+} 
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+
+/**************** For flex-box ***************************/
+  
+  * {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+   body {
+     margin: 2rem;
+    color: rgb(99, 74, 74); 
+     /* background-image: url('bg.jpg');  */
+    /* background-image: url('pexels1.jpeg'); */
+      /* background-image: url('images/freepick.jpg');   */
+      background-image: linear-gradient(120deg, #f6d365, #fda085);
+  } 
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+   .card {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px rgb(172, 148, 148);
+    background-color: white; 
+    text-align: left;
+    border-radius: 1rem;
+    position: relative;
+    width: 280px;
+    margin-bottom: 2rem;
+    /* margin-left: 3rem;      */
+    margin-right: 1rem;
+  } 
+    
+  .food-name{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.1em 0.6em;
+  }
+
+  .details {
+    padding: 1em;
+  }
+  
+h1{
+   color: blue;
+}
